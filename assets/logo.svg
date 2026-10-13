@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43" fill="none">
+  <!-- Outer diamond border -->
+  <rect x="4" y="4" width="35" height="35" rx="2" stroke="#f5b942" stroke-width="1" transform="rotate(45 21.5 21.5)" fill="none" opacity="0.5"/>
+  <!-- Circuit traces -->
+  <line x1="21.5" y1="2" x2="21.5" y2="10" stroke="#f5b942" stroke-width="1"/>
+  <line x1="21.5" y1="33" x2="21.5" y2="41" stroke="#f5b942" stroke-width="1"/>
+  <line x1="2" y1="21.5" x2="10" y2="21.5" stroke="#f5b942" stroke-width="1"/>
+  <line x1="33" y1="21.5" x2="41" y2="21.5" stroke="#f5b942" stroke-width="1"/>
+  <!-- Circuit nodes -->
+  <circle cx="21.5" cy="4" r="1.5" fill="#f5b942"/>
+  <circle cx="21.5" cy="39" r="1.5" fill="#f5b942"/>
+  <circle cx="4" cy="21.5" r="1.5" fill="#f5b942"/>
+  <circle cx="39" cy="21.5" r="1.5" fill="#f5b942"/>
+  <!-- Lightning bolt / E shape -->
+  <path d="M25 9L16 22H22L18 34L30 19H23L25 9Z" fill="#f5b942" stroke="#f5b942" stroke-width="0.5" stroke-linejoin="round"/>
+  <!-- Inner glow ring -->
+  <circle cx="21.5" cy="21.5" r="14" stroke="#f5b942" stroke-width="0.4" stroke-dasharray="2 4" opacity="0.4"/>
+</svg>

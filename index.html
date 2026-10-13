@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Electroreck Society — EE Dept, NIT Kurukshetra</title>
+  <meta name="description" content="Electroreck Society is the technical society of the Electrical Engineering Department at NIT Kurukshetra. Explore events, register for competitions, and discover what we do." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="Electroreck Society — NIT Kurukshetra" />
+  <meta property="og:description" content="The technical society of the EE Dept, NIT Kurukshetra. Showcases events with interactive filters and registration." />
+  <meta property="og:type"        content="website" />
+
+  <!-- Favicon (inline logo SVG) -->
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+
+  <!-- Google Fonts (preconnect for speed) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<div class="site-shell">
+
+<!-- ═══════════════════════════════════════════════════════════
+     NAVIGATION
+════════════════════════════════════════════════════════════ -->
+<header>
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+
+      <!-- Brand -->
+      <a href="#" class="brand" aria-label="Electroreck Society — Home">
+        <svg class="logo-mark" viewBox="0 0 43 43" fill="none" aria-hidden="true">
+          <rect x="4" y="4" width="35" height="35" rx="2" stroke="currentColor" stroke-width="1"
+                transform="rotate(45 21.5 21.5)" fill="none" opacity="0.5"/>
+          <line x1="21.5" y1="2"  x2="21.5" y2="10" stroke="currentColor" stroke-width="1"/>
+          <line x1="21.5" y1="33" x2="21.5" y2="41" stroke="currentColor" stroke-width="1"/>
+          <line x1="2"  y1="21.5" x2="10"  y2="21.5" stroke="currentColor" stroke-width="1"/>
+          <line x1="33" y1="21.5" x2="41"  y2="21.5" stroke="currentColor" stroke-width="1"/>
+          <circle cx="21.5" cy="4"    r="1.5" fill="currentColor"/>
+          <circle cx="21.5" cy="39"   r="1.5" fill="currentColor"/>
+          <circle cx="4"    cy="21.5" r="1.5" fill="currentColor"/>
+          <circle cx="39"   cy="21.5" r="1.5" fill="currentColor"/>
+          <path d="M25 9L16 22H22L18 34L30 19H23L25 9Z"
+                fill="currentColor" stroke="currentColor" stroke-width="0.5" stroke-linejoin="round"/>
+          <circle cx="21.5" cy="21.5" r="14" stroke="currentColor" stroke-width="0.4"
+                  stroke-dasharray="2 4" opacity="0.4"/>
+        </svg>
+        <div class="brand-copy">
+          <strong>ELECTRORECK</strong>
+          <small>EE Dept · NIT Kurukshetra</small>
+        </div>
+      </a>
+
+      <!-- Desktop nav -->
+      <div class="nav-links" id="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#events">Events</a>
+        <a href="#about">About Society</a>
+        <a href="#contact">Contact</a>
+        <a href="#events" class="button button-gold nav-cta">Register Now</a>
+      </div>
+
+      <!-- Hamburger -->
+      <button class="menu-toggle" id="menu-toggle"
+              aria-controls="nav-links" aria-expanded="false" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </nav>
+</header>
+
+<!-- ═══════════════════════════════════════════════════════════
+     HERO SECTION
+════════════════════════════════════════════════════════════ -->
+<section class="hero" id="hero" aria-label="Hero">
+  <div class="circuit-bg" aria-hidden="true"></div>
+
+  <div class="hero-grid">
+    <!-- Left: Content -->
+    <div class="hero-content">
+      <span class="eyebrow">NIT Kurukshetra · EE Dept</span>
+
+      <h1>
+        POWERING
+        <em>TOMORROW'S</em>
+        ENGINEERS
+      </h1>
+
+      <p>
+        Electroreck Society brings together the brightest minds of the
+        Electrical Engineering Department at NIT Kurukshetra — through
+        technical competitions, cultural events, and hands-on workshops
+        that spark innovation and ignite careers.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#events" class="button button-gold">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          Explore Events
+        </a>
+        <a href="#about" class="button button-outline">About Society</a>
+      </div>
+
+      <div class="hero-statline" aria-label="Society statistics">
+        <span>500+ MEMBERS</span>
+        <div class="pulse-line" aria-hidden="true"></div>
+        <span>10+ YEARS OF EXCELLENCE</span>
+      </div>
+    </div>
+
+    <!-- Right: Visual -->
+    <div class="hero-visual" aria-hidden="true">
+      <div class="visual-grid"></div>
+
+      <div class="energy-ring ring-outer"></div>
+      <div class="energy-ring ring-inner"></div>
+
+      <!-- Central logo diamond -->
+      <div class="hero-logo">
+        <div class="brand">
+          <svg class="logo-mark" viewBox="0 0 43 43" fill="none">
+            <rect x="4" y="4" width="35" height="35" rx="2" stroke="currentColor" stroke-width="1"
+                  transform="rotate(45 21.5 21.5)" fill="none" opacity="0.5"/>
+            <line x1="21.5" y1="2"  x2="21.5" y2="10" stroke="currentColor" stroke-width="1"/>
+            <line x1="21.5" y1="33" x2="21.5" y2="41" stroke="currentColor" stroke-width="1"/>
+            <line x1="2"  y1="21.5" x2="10"  y2="21.5" stroke="currentColor" stroke-width="1"/>
+            <line x1="33" y1="21.5" x2="41"  y2="21.5" stroke="currentColor" stroke-width="1"/>
+            <circle cx="21.5" cy="4"    r="1.5" fill="currentColor"/>
+            <circle cx="21.5" cy="39"   r="1.5" fill="currentColor"/>
+            <circle cx="4"    cy="21.5" r="1.5" fill="currentColor"/>
+            <circle cx="39"   cy="21.5" r="1.5" fill="currentColor"/>
+            <path d="M25 9L16 22H22L18 34L30 19H23L25 9Z"
+                  fill="currentColor" stroke="currentColor" stroke-width="0.5" stroke-linejoin="round"/>
+            <circle cx="21.5" cy="21.5" r="14" stroke="currentColor" stroke-width="0.4"
+                    stroke-dasharray="2 4" opacity="0.4"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Tech floating labels -->
+      <div class="tech-label label-top">V_RMS · 230V AC</div>
+      <div class="tech-label label-bottom">η = P_out / P_in</div>
+
+      <!-- Waveform -->
+      <svg class="hero-wave" viewBox="0 0 400 40" preserveAspectRatio="none">
+        <path d="M0 20 Q25 5 50 20 Q75 35 100 20 Q125 5 150 20 Q175 35 200 20
+                 Q225 5 250 20 Q275 35 300 20 Q325 5 350 20 Q375 35 400 20"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Scroll cue -->
+  <button class="scroll-cue" aria-label="Scroll to events">
+    Scroll
+    <i aria-hidden="true"></i>
+  </button>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     EVENTS SECTION
+════════════════════════════════════════════════════════════ -->
+<section class="events-section" id="events" aria-labelledby="events-heading">
+  <!-- Section heading -->
+  <div class="section-heading">
+    <div>
+      <span class="section-kicker">Annual Events</span>
+      <h2 id="events-heading">
+        FLAGSHIP
+        <em>EVENTS</em>
+      </h2>
+    </div>
+    <p>
+      Four signature events that define the Electroreck experience —
+      from cutting-edge technical challenges to creative inter-departmental
+      competitions that celebrate engineering culture.
+    </p>
+  </div>
+
+  <!-- Filter bar -->
+  <div class="filter-bar" role="tablist" aria-label="Event category filters">
+    <button class="filter active" data-filter="all"
+            role="tab" aria-selected="true" id="filter-all">All Events</button>
+    <button class="filter" data-filter="technical"
+            role="tab" aria-selected="false" id="filter-technical">Technical</button>
+    <button class="filter" data-filter="cultural"
+            role="tab" aria-selected="false" id="filter-cultural">Cultural</button>
+    <button class="filter" data-filter="sports"
+            role="tab" aria-selected="false" id="filter-sports">Sports</button>
+  </div>
+
+  <!-- Event grid -->
+  <div class="event-grid" role="list" aria-label="Events">
+
+    <!-- ── Card 1: Advanza ── -->
+    <article class="event-card" data-category="technical" role="listitem"
+             aria-labelledby="card-advanza">
+      <!-- Art -->
+      <div class="event-art art-geometry" aria-hidden="true">
+        <span class="art-index">01</span>
+        <div class="art-core"></div>
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <svg class="event-waveform" viewBox="0 0 400 40" preserveAspectRatio="none">
+          <path d="M0 20 L60 20 L70 5 L85 35 L100 5 L115 20 L400 20"/>
+        </svg>
+        <span class="art-label" aria-hidden="true">A</span>
+      </div>
+      <!-- Body -->
+      <div class="event-card-body">
+        <div class="event-card-topline">
+          <span class="category-badge">Technical</span>
+          <span class="event-number">#01</span>
+        </div>
+        <h3 id="card-advanza">ADVANZA</h3>
+        <p>
+          The flagship technical competition of Electroreck. Push the boundaries
+          of electrical engineering with circuit design challenges, power systems
+          analysis, and real-world problem-solving rounds.
+        </p>
+        <div class="event-meta">
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            TBD — Update before submission
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            EE Seminar Hall, NIT Kurukshetra
+          </span>
+        </div>
+        <button class="button button-gold card-button"
+                data-register="Advanza" id="btn-register-advanza">
+          Register Now
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </article>
+
+    <!-- ── Card 2: DigiSpark ── -->
+    <article class="event-card" data-category="technical" role="listitem"
+             aria-labelledby="card-digispark">
+      <div class="event-art art-chip" aria-hidden="true">
+        <span class="art-index">02</span>
+        <div class="art-core"></div>
+        <svg class="event-waveform" viewBox="0 0 400 40" preserveAspectRatio="none">
+          <path d="M0 20 Q30 2 60 20 Q90 38 120 20 Q150 2 180 20 Q210 38 240 20
+                   Q270 2 300 20 Q330 38 360 20 Q390 2 400 20"/>
+        </svg>
+        <span class="art-label" aria-hidden="true">D</span>
+      </div>
+      <div class="event-card-body">
+        <div class="event-card-topline">
+          <span class="category-badge">Technical</span>
+          <span class="event-number">#02</span>
+        </div>
+        <h3 id="card-digispark">DIGISPARK</h3>
+        <p>
+          Dive deep into the digital domain. DigiSpark challenges participants
+          with logic design, FPGA programming, microcontroller projects, and
+          digital signal processing hackathons.
+        </p>
+        <div class="event-meta">
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            TBD — Update before submission
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Computer Centre, NIT Kurukshetra
+          </span>
+        </div>
+        <button class="button button-gold card-button"
+                data-register="DigiSpark" id="btn-register-digispark">
+          Register Now
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </article>
+
+    <!-- ── Card 3: Electrica ── -->
+    <article class="event-card" data-category="cultural" role="listitem"
+             aria-labelledby="card-electrica">
+      <div class="event-art art-wave" aria-hidden="true">
+        <span class="art-index">03</span>
+        <div class="art-core"></div>
+        <div class="art-orbit orbit-one"></div>
+        <svg class="event-waveform" viewBox="0 0 400 40" preserveAspectRatio="none">
+          <path d="M0 20 C50 5, 100 35, 150 20 C200 5, 250 35, 300 20 C350 5, 380 35, 400 20"/>
+        </svg>
+        <span class="art-label" aria-hidden="true">E</span>
+      </div>
+      <div class="event-card-body">
+        <div class="event-card-topline">
+          <span class="category-badge">Cultural</span>
+          <span class="event-number">#03</span>
+        </div>
+        <h3 id="card-electrica">ELECTRICA</h3>
+        <p>
+          The cultural heartbeat of Electroreck. Electrica blends creativity
+          with engineering — from themed technical art exhibitions to
+          inter-departmental quiz nights and talent showcases.
+        </p>
+        <div class="event-meta">
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            TBD — Update before submission
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Open Air Theatre, NIT Kurukshetra
+          </span>
+        </div>
+        <button class="button button-gold card-button"
+                data-register="Electrica" id="btn-register-electrica">
+          Register Now
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </article>
+
+    <!-- ── Card 4: Vichwaan ── -->
+    <article class="event-card" data-category="technical" role="listitem"
+             aria-labelledby="card-vichwaan">
+      <div class="event-art art-knowledge" aria-hidden="true">
+        <span class="art-index">04</span>
+        <div class="art-core"></div>
+        <div class="art-orbit orbit-two"></div>
+        <svg class="event-waveform" viewBox="0 0 400 40" preserveAspectRatio="none">
+          <path d="M0 20 L40 20 L55 8 L70 32 L85 8 L100 32 L115 20 L400 20"/>
+        </svg>
+        <span class="art-label" aria-hidden="true">V</span>
+      </div>
+      <div class="event-card-body">
+        <div class="event-card-topline">
+          <span class="category-badge">Technical</span>
+          <span class="event-number">#04</span>
+        </div>
+        <h3 id="card-vichwaan">VICHWAAN</h3>
+        <p>
+          Vichwaan — meaning "analysis" — is the ultimate research and
+          presentation challenge. Participants showcase original papers,
+          industry analysis, and innovative EE project concepts.
+        </p>
+        <div class="event-meta">
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            TBD — Update before submission
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            EE Department, NIT Kurukshetra
+          </span>
+        </div>
+        <button class="button button-gold card-button"
+                data-register="Vichwaan" id="btn-register-vichwaan">
+          Register Now
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </article>
+
+    <!-- Empty state (hidden by default) -->
+    <div class="empty-state" id="empty-state" aria-live="polite">
+      <span aria-hidden="true">∅</span>
+      <h3>NO EVENTS FOUND</h3>
+      <p>No events match the selected category. Try a different filter.</p>
+      <button class="button button-outline" data-filter="all"
+              onclick="document.querySelector('[data-filter=all]').click()">
+        View All Events
+      </button>
+    </div>
+
+  </div><!-- /event-grid -->
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     ABOUT SECTION
+════════════════════════════════════════════════════════════ -->
+<section class="about-section" id="about" aria-labelledby="about-heading">
+  <div class="about-grid">
+
+    <!-- Left: Intro -->
+    <div class="about-intro">
+      <span class="section-kicker">Who We Are</span>
+      <h2 id="about-heading">
+        BEYOND THE
+        <em>CLASSROOM</em>
+      </h2>
+      <p>
+        Electroreck Society is the premier technical and cultural society of
+        the Electrical Engineering Department at NIT Kurukshetra. Founded to
+        bridge the gap between academia and industry, we cultivate a community
+        of engineers who think boldly and build fearlessly.
+      </p>
+      <p>
+        From organizing flagship technical events to conducting workshops,
+        guest lectures, and industrial visits — we empower students to grow
+        beyond the curriculum and prepare for the challenges of tomorrow.
+      </p>
+      <div style="margin-top: 32px;">
+        <a href="#events" class="button button-gold">Join an Event</a>
+      </div>
+    </div>
+
+    <!-- Right: Feature cards -->
+    <div class="feature-grid" aria-label="Society highlights">
+      <div class="feature">
+        <span class="feature-number">01</span>
+        <div class="feature-icon" aria-hidden="true"></div>
+        <h3>TECHNICAL EXCELLENCE</h3>
+        <p>Hands-on competitions, hackathons, and design challenges pushing the frontiers of EE.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-number">02</span>
+        <div class="feature-icon" aria-hidden="true"></div>
+        <h3>INDUSTRY CONNECT</h3>
+        <p>Guest lectures, industrial visits, and mentorship from leading engineers and firms.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-number">03</span>
+        <div class="feature-icon" aria-hidden="true"></div>
+        <h3>COMMUNITY &amp; CULTURE</h3>
+        <p>Fostering collaboration, creativity, and camaraderie across all years of the department.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════════════════ -->
+<footer id="contact" aria-label="Footer">
+  <div class="footer-main">
+
+    <!-- Brand column -->
+    <div class="footer-brand">
+      <a href="#" class="brand" aria-label="Electroreck Society">
+        <svg class="logo-mark" viewBox="0 0 43 43" fill="none" aria-hidden="true"
+             style="width:36px;height:36px;">
+          <rect x="4" y="4" width="35" height="35" rx="2" stroke="currentColor" stroke-width="1"
+                transform="rotate(45 21.5 21.5)" fill="none" opacity="0.5"/>
+          <path d="M25 9L16 22H22L18 34L30 19H23L25 9Z"
+                fill="currentColor" stroke="currentColor" stroke-width="0.5" stroke-linejoin="round"/>
+        </svg>
+        <div class="brand-copy">
+          <strong>ELECTRORECK</strong>
+        </div>
+      </a>
+      <p>
+        The technical society of the Electrical Engineering Department
+        at NIT Kurukshetra — empowering students through events,
+        competitions, and community since our founding.
+      </p>
+      <!-- Social links -->
+      <div class="social-links" aria-label="Social media links">
+        <a href="#" class="social-link" aria-label="Instagram" title="Instagram">
+          <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="#" class="social-link" aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/>
+            <rect x="2" y="9" width="4" height="12"/>
+            <circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="#" class="social-link" aria-label="Twitter / X" title="Twitter">
+          <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+        </a>
+        <a href="#" class="social-link" aria-label="YouTube" title="YouTube">
+          <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.97C18.88 4 12 4 12 4s-6.88 0-8.59.45A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58 2.78 2.78 0 001.95 1.97C5.12 20 12 20 12 20s6.88 0 8.59-.45a2.78 2.78 0 001.95-1.97A29 29 0 0023 12a29 29 0 00-.46-5.58z"/>
+            <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#030303" stroke="none"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Quick links -->
+    <nav class="footer-column" aria-label="Quick links">
+      <span>Quick Links</span>
+      <a href="#hero">Home</a>
+      <a href="#events">Events</a>
+      <a href="#about">About Society</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Events -->
+    <nav class="footer-column" aria-label="Events">
+      <span>Events</span>
+      <a href="#events">Advanza</a>
+      <a href="#events">DigiSpark</a>
+      <a href="#events">Electrica</a>
+      <a href="#events">Vichwaan</a>
+    </nav>
+
+    <!-- Institute info -->
+    <div class="footer-institute">
+      <span>Institute</span>
+      <strong>National Institute of Technology Kurukshetra</strong>
+      <small>Thanesar, Kurukshetra, Haryana — 136119</small>
+      <small style="margin-top:6px;">EE Dept: ee@nitkkr.ac.in</small>
+    </div>
+
+  </div><!-- /footer-main -->
+
+  <div class="footer-bottom">
+    <span>© 2024 Electroreck Society · EE Dept, NIT Kurukshetra · All rights reserved.</span>
+    <span>Built for academic submission · No backend — registrations are frontend-only.</span>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════════════════════
+     REGISTRATION MODAL
+════════════════════════════════════════════════════════════ -->
+<div class="modal-backdrop" id="reg-modal" role="dialog" aria-modal="true"
+     aria-labelledby="modal-title" aria-describedby="modal-desc">
+  <div class="modal">
+
+    <!-- Close button -->
+    <button class="modal-close" id="modal-close" aria-label="Close registration form">
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- ─── Registration form ─── -->
+    <div id="reg-form">
+      <div class="modal-heading">
+        <span class="eyebrow">Event Registration</span>
+        <h2 id="modal-title">REGISTER FOR<br><span id="modal-event-label"></span></h2>
+        <p id="modal-desc">
+          Fill in your details below to register for this event.
+          <strong style="color:#fff;">Note:</strong> This is a frontend-only form —
+          registrations are not permanently saved or sent to the society.
+        </p>
+      </div>
+
+      <form class="form-grid" id="registration-form" novalidate>
+
+        <!-- Event (readonly) -->
+        <label class="form-full">
+          <span>Selected Event</span>
+          <input type="text" id="field-event" name="event" readonly
+                 aria-label="Selected event" tabindex="-1"/>
+        </label>
+
+        <!-- Full name -->
+        <label>
+          <span>Full Name <i>*</i></span>
+          <input type="text" id="field-name" name="name"
+                 placeholder="e.g. Priya Sharma" autocomplete="name"
+                 required aria-required="true" aria-describedby="field-name-err"/>
+          <span class="field-error" id="field-name-err" role="alert"></span>
+        </label>
+
+        <!-- College email -->
+        <label>
+          <span>College Email <i>*</i></span>
+          <input type="email" id="field-email" name="email"
+                 placeholder="rollno@nitkkr.ac.in" autocomplete="email"
+                 required aria-required="true" aria-describedby="field-email-err"/>
+          <span class="field-error" id="field-email-err" role="alert"></span>
+        </label>
+
+        <!-- Roll number -->
+        <label>
+          <span>Roll Number <i>*</i></span>
+          <input type="text" id="field-roll" name="roll"
+                 placeholder="e.g. 2201234" autocomplete="off"
+                 required aria-required="true" aria-describedby="field-roll-err"/>
+          <span class="field-error" id="field-roll-err" role="alert"></span>
+        </label>
+
+        <!-- Department -->
+        <label>
+          <span>Department <i>*</i></span>
+          <div class="select-wrap">
+            <select id="field-dept" name="department"
+                    required aria-required="true" aria-describedby="field-dept-err">
+              <option value="">Select department</option>
+              <option value="EE">Electrical Engineering</option>
+              <option value="ECE">Electronics &amp; Communication Engg</option>
+              <option value="CSE">Computer Science &amp; Engineering</option>
+              <option value="ME">Mechanical Engineering</option>
+              <option value="CE">Civil Engineering</option>
+              <option value="CH">Chemical Engineering</option>
+              <option value="IT">Information Technology</option>
+              <option value="PIE">Production &amp; Industrial Engg</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <span class="field-error" id="field-dept-err" role="alert"></span>
+        </label>
+
+        <!-- Year of study -->
+        <label>
+          <span>Year of Study <i>*</i></span>
+          <div class="select-wrap">
+            <select id="field-year" name="year"
+                    required aria-required="true" aria-describedby="field-year-err">
+              <option value="">Select year</option>
+              <option value="1">1st Year (B.Tech)</option>
+              <option value="2">2nd Year (B.Tech)</option>
+              <option value="3">3rd Year (B.Tech)</option>
+              <option value="4">4th Year (B.Tech)</option>
+              <option value="M1">1st Year (M.Tech / MCA)</option>
+              <option value="M2">2nd Year (M.Tech / MCA)</option>
+              <option value="PhD">PhD</option>
+            </select>
+          </div>
+          <span class="field-error" id="field-year-err" role="alert"></span>
+        </label>
+
+        <!-- Phone (optional) -->
+        <label>
+          <span>Phone Number <i>(optional)</i></span>
+          <input type="tel" id="field-phone" name="phone"
+                 placeholder="+91 98765 43210" autocomplete="tel"/>
+        </label>
+
+        <!-- Spacer on desktop -->
+        <div></div>
+
+        <!-- Terms -->
+        <label class="checkbox form-full" id="label-terms">
+          <input type="checkbox" id="field-terms" name="terms"
+                 aria-describedby="field-terms-err"/>
+          <span>
+            I confirm that the information provided is accurate, and I agree to the
+            event's participation terms and conditions set by Electroreck Society,
+            NIT Kurukshetra.
+          </span>
+        </label>
+        <span class="field-error form-full" id="field-terms-err" role="alert"></span>
+
+        <!-- Submit -->
+        <div class="form-full">
+          <button type="submit" class="button button-gold submit-button"
+                  id="btn-submit">
+            Confirm Registration
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+      </form>
+    </div><!-- /reg-form -->
+
+    <!-- ─── Success state ─── -->
+    <div class="success-state" id="success-state" aria-live="polite">
+      <div class="success-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <polyline points="20 6 9 17 4 12"/>
+        </svg>
+      </div>
+      <h3>REGISTRATION CONFIRMED</h3>
+      <p>
+        Thank you for registering for
+        <strong id="success-event-name"></strong>!
+        Your spot has been noted. Keep an eye on your college email for further
+        updates from the Electroreck Society team.
+      </p>
+      <p style="font-size:11px;color:#555;margin-top:4px;">
+        ⚠ Frontend-only demo: no data has been permanently saved or sent.
+      </p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:16px;">
+        <button class="button button-outline" id="btn-register-another">
+          Register for Another Event
+        </button>
+        <button class="button button-gold" onclick="document.getElementById('modal-close').click()">
+          Close
+        </button>
+      </div>
+    </div>
+
+  </div><!-- /modal -->
+</div><!-- /modal-backdrop -->
+
+<!-- JavaScript -->
+<script src="js/main.js"></script>
+
+<!-- Modal event-name sync script (inline, minimal) -->
+<script>
+  // Keep the success-state event name in sync with the opened event
+  (function() {
+    var modalBg  = document.getElementById('reg-modal');
+    var label    = document.getElementById('modal-event-label');
+    var succName = document.getElementById('success-event-name');
+
+    document.querySelectorAll('[data-register]').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var name = btn.dataset.register;
+        if (label)    label.textContent    = name;
+        if (succName) succName.textContent = name;
+      });
+    });
+  })();
+</script>
+
+</div><!-- /site-shell -->
+</body>
+</html>
