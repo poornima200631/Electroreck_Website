@@ -85,8 +85,8 @@ ol, ul { list-style: none; }
   width: 43px;
   height: 43px;
   flex: none;
-  color: var(--gold);
-  filter: drop-shadow(0 0 12px rgba(245, 185, 66, 0.2));
+  object-fit: contain;
+  filter: drop-shadow(0 0 10px rgba(245, 185, 66, 0.25));
 }
 .brand-copy {
   display: grid;
@@ -361,14 +361,19 @@ ol, ul { list-style: none; }
   z-index: 2;
   display: grid;
   place-items: center;
-  width: 210px; height: 210px;
-  background: rgba(5,5,5,0.79);
-  border: 1px solid rgba(245,185,66,0.25);
-  transform: rotate(45deg);
-  box-shadow: 0 0 60px rgba(245,185,66,0.12);
+  width: 220px; height: 220px;
+  background: rgba(5,5,5,0.5);
+  border: 1px solid rgba(245,185,66,0.2);
+  border-radius: 50%;
+  box-shadow: 0 0 60px rgba(245,185,66,0.15), inset 0 0 40px rgba(0,0,0,0.6);
 }
-.hero-logo .brand { transform: rotate(-45deg); }
-.hero-logo .logo-mark { width: 135px; height: 135px; }
+.hero-logo-img {
+  width: 190px;
+  height: 190px;
+  object-fit: contain;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 18px rgba(245,185,66,0.35));
+}
 
 /* Tech labels */
 .tech-label {
@@ -1159,7 +1164,7 @@ footer {
   .hero-statline span:last-child { max-width: 130px; }
   .hero-visual { width: 105vw; margin: -10px 0 0 -9vw; }
   .hero-logo { width: 145px; height: 145px; }
-  .hero-logo .logo-mark { width: 92px; height: 92px; }
+  .hero-logo-img { width: 120px; height: 120px; }
 
   .events-section, .about-section { padding: 72px 20px; }
   .section-heading h2, .about-intro h2 { font-size: 34px; line-height: 1.08; }
